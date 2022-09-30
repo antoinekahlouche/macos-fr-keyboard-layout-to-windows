@@ -44,14 +44,27 @@ SetWorkingDir %A_ScriptDir%
 !y::Send ^y
 !z::Send ^z
 !,::Send ^,
-!BackSpace::Send {Delete}
+!BackSpace::Send ^+{BackSpace}
+#BackSpace::Send ^{BackSpace}
 !LButton::Send ^{Click}
-!+LButton::Send ^+(Click}
+!+LButton::Send ^+{Click}
 !Enter::Send ^{Enter}
-!Left::Send ^{Left}
-!+Left::Send ^+{Left}
-!Right::Send ^{Right}
-!+Right::Send ^+{Right}
+#Left::Send ^{Left}
+#+Left::Send ^+{Left}
+#Right::Send ^{Right}
+#+Right::Send ^+{Right}
+!Left::Send {Home}
+!+Left::Send +{Home}
+!Right::Send {End}
+!+Right::Send +{End}
+!Up::Send ^{Home}
+!Down::Send ^{End}
+#Up::Send {PgUp}
+#Down::Send {PgDn}
+!+Up::Send ^+{Home}
+!+Down::Send ^+{End}
+#+Up::Send +{PgUp}
+#+Down::Send +{PgDn}
 
 ; --------------------------------------------------------------
 ; Special chars
