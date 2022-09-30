@@ -46,6 +46,12 @@ SetWorkingDir %A_ScriptDir%
 !,::Send ^,
 !BackSpace::Send {Delete}
 !LButton::Send ^{Click}
+!+LButton::Send ^+(Click}
+!Enter::Send ^{Enter}
+!Left::Send ^{Left}
+!+Left::Send ^+{Left}
+!Right::Send ^{Right}
+!+Right::Send ^+{Right}
 
 ; --------------------------------------------------------------
 ; Special chars
