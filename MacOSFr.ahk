@@ -59,12 +59,10 @@ SetWorkingDir %A_ScriptDir%
 !+Right::Send +{End}
 !Up::Send ^{Home}
 !Down::Send ^{End}
-#Up::Send {PgUp}
-#Down::Send {PgDn}
 !+Up::Send ^+{Home}
 !+Down::Send ^+{End}
-#+Up::Send +{PgUp}
-#+Down::Send +{PgDn}
+#Up::Send !{Up}
+#Down::Send !{Down}
 
 ; --------------------------------------------------------------
 ; Special chars
