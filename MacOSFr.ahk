@@ -44,7 +44,7 @@ SetWorkingDir %A_ScriptDir%
 !y::Send ^y
 !z::Send ^z
 !,::Send ^,
-!BackSpace::Send ^+{BackSpace}
+!BackSpace::Send +{Home}{BackSpace}
 #BackSpace::Send ^{BackSpace}
 !LButton::Send ^{Click}
 !+LButton::Send ^+{Click}
