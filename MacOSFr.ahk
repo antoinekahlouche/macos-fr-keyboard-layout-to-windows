@@ -35,10 +35,12 @@ SetWorkingDir %A_ScriptDir%
 !p::Send ^p
 !q::Send !{F4}
 !r::Send ^r
+!+r::Send ^+r
 !s::Send ^s
 !t::Send ^t
 !+t::Send ^+t
 !v::Send ^v
+!+v::Send ^+v
 !w::Send ^w
 !x::Send ^x
 !y::Send ^y
